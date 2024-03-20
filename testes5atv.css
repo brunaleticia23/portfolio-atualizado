@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #fcfbff;
+
+    justify-content: center;
+  }
+  
+  
+  main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-size: x-large;
+  }
+  
+  img {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+  }
+  
+  .swiper {
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+}
